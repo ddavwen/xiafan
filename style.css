@@ -1,0 +1,14 @@
+:root { --bg: #fbf6ea; --ink: #1c2431; --dim: #5d6673; --yolk: #f5be3c; --tomato: #e2533b; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1c2431; --ink: #fbf6ea; --dim: #b6bdc7; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.7 -apple-system, "PingFang SC", "Noto Sans SC", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+header { display: flex; align-items: center; gap: 18px; margin-bottom: 28px; }
+header img { width: 84px; height: 84px; border-radius: 50%; }
+h1 { font-size: 32px; margin: 0; line-height: 1.2; }
+h1 small { display: block; font-size: 16px; font-weight: 500; color: var(--dim); margin-top: 6px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+a { color: var(--tomato); }
+.links a { display: inline-block; margin: 0 14px 10px 0; padding: 8px 16px; border-radius: 999px; background: var(--yolk); color: #1c2431; text-decoration: none; font-weight: 600; }
+footer { margin-top: 48px; font-size: 14px; color: var(--dim); }
+footer a { color: var(--dim); }
